@@ -9,6 +9,7 @@ import Mains from './Screens/Mains';
 import Genset from './Screens/Genset';
 import Alerts from './Screens/Alert';
 import './App.css';
+//import Excel from './Screens/Excel';
 
 const App = () => {
   //const BaseUrl = "http://localhost:5002/micro"
@@ -33,6 +34,7 @@ const App = () => {
               <Route path="/mains" element={<Mains BaseUrl = {BaseUrl}/>} />
               <Route path="/genset" element={<Genset BaseUrl = {BaseUrl}/>} />
               <Route path="/alerts" element={<Alerts BaseUrl = {BaseUrl}/>} />
+              {/* <Route path="/excel" element={<Excel BaseUrl = {BaseUrl}/>} /> */}
             </Routes>
           </div>
         </div>
